@@ -1,0 +1,4 @@
+Hướng dẫn :
+1. Nhập thông tin cấu hình ở file properties
+2 . run class org.aptech.t2004e.config.SetupDatabase để khởi tạo db
+3 run project và truy cập đường dẫn http://localhost:8080/assignment/phones

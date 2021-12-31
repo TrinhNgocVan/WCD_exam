@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.keysoft.entityFramework</groupId>
+  <artifactId>JPARepository</artifactId>
+  <version>0.0.1</version>
+  <name>JPA Repository </name>
+  <description>JPA Repository build by myself</description>
+  <properties>
+  		<mysql_connector.version>8.0.27</mysql_connector.version>
+  		<maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <lombok.version>1.18.22</lombok.version>
+  		<log4j.version>1.2.17</log4j.version>
+  </properties>
+  <dependencies>
+  	<dependency>
+       <groupId>mysql</groupId>
+       <artifactId>mysql-connector-java</artifactId>
+       <version>${mysql_connector.version}</version>
+    </dependency>
+    <dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>${lombok.version}</version>
+   		<scope>provided</scope>
+	</dependency>
+    <dependency>
+    	<groupId>log4j</groupId>
+    	<artifactId>log4j</artifactId>
+    	<version>${log4j.version}</version>
+	</dependency>
+	<dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+        <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
